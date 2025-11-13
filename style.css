@@ -1,0 +1,287 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+html{
+    scroll-behavior: smooth;    
+}
+
+#banner{
+    padding-top: 70px;
+    position: relative;
+    z-index: 1;
+    background-image: linear-gradient(to right, #02aedf, #0c468a, #0c468a);
+}
+
+#sobre{
+}
+
+
+#contato{
+    display: flex;
+    margin-top: 500px;
+}
+
+#equipe{
+    padding-top: 70px;
+}
+
+#sobre{
+    padding-bottom: 30px;
+    padding-top: 70px;
+}
+
+.dexplain1{
+    padding: 30px;
+    padding-bottom: 30px;
+}
+
+.pexplain{
+    font-size: 35px;    
+    text-align: justify;
+    padding-top: 30px;
+}
+
+.pexplainCard{
+    font-size: 33px;    
+    text-align: justify;
+}
+
+.defaultMarginText{
+    margin-top: 500px;
+}
+
+.cards{
+    background-image: linear-gradient(to bottom, #090d19, #151e37, #26345d);
+    margin-left: 40px;
+    margin-right: 40px;
+    width: 500px;
+    border-radius: 10%;
+    overflow: hidden;
+}
+
+.cards1{
+    background-image: linear-gradient(to bottom, #0147a6, #0068b2, #0297c2);
+    margin-left: 40px;
+    margin-right: 40px;
+    width: 500px;
+    border-radius: 10%;
+    overflow: hidden;
+}
+
+#TopoPagina{
+    position: relative;
+    width: 100%;
+}
+
+.welcome{
+    color: white;
+    margin-left: 65px;
+    
+}
+
+#welcome{
+    position: absolute;
+    bottom: 550px;
+    z-index: 2;
+    font-size: 50px;
+}
+
+.title1{
+    text-align: center;
+    color: #00c4cc;
+    font-size: 60px;
+}
+
+.title3{
+    text-align: center;
+    color: #fff;
+    font-size: 40px;
+}
+
+.title2{
+    color: white;
+    font-size: 40px;
+}
+
+#navegacao{
+    display: inline-flex;
+    height: 70px;
+    padding: 20px;
+    padding-left: 400px;
+}
+
+#header{            
+    background-color: #090d19;
+    width: 100%;
+    display: flex;  
+    height: 80px;
+    position: fixed;
+    z-index: 3;
+}
+
+.btnNav{
+    list-style: none;
+    text-decoration: none;
+    padding-left: 130px;
+    font-size: 25px;
+}
+
+.btnNav a{
+    text-decoration: none;
+    list-style: none;
+    font-size: 25px;
+    color: #01ACCA;
+}
+
+#Logotipo{
+    padding-top: 10px;
+    width: 74px;
+    margin-left: 20px;
+}
+
+#container{
+    padding-top: 20px;
+    padding-left: 70px;
+    padding-right: 70px;
+    background-image: linear-gradient(to right, #02aedf, #0c468a, #0c468a);
+}
+
+.perfil{
+    overflow: hidden;
+    border-radius: 100%;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    border: 5px solid black;
+    margin-bottom: 30px;
+}
+
+.divPerfil{
+    display: inline-flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.imgPerfil{
+    width: 300px;
+    height: 300px;
+}
+
+#portifolio{
+    width: 100%;
+    color: white;
+    padding-bottom: 20px;
+    padding-top: 70px;
+}
+
+#cardPort{
+    display: flex;
+    margin-top: 40px;
+    width: 100%;
+    margin-left: 5%;
+}
+
+#clients{
+    padding-top: 110px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 110px;
+    width: 70%;
+    text-align: center;
+    border-radius: 10%;
+    overflow: hidden;
+    background-color: #01131f;
+}
+
+#clientSite{
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    width: 90%;
+    text-align: center;
+    border-radius: 15%;
+    overflow: hidden;
+    background-color: #000;
+}
+
+.imgClient{
+    height: 200px;
+}
+
+.imgSiteClient{
+    height: 620px;
+}
+
+#cardPortRight{
+    width: 70%;
+}
+
+#cardPortLeft{
+    width: 30%;
+}
+
+footer{
+    background-color: #090d19;
+}
+
+.divPerfil1{
+    margin: 1.5%;
+    text-align: center;
+}
+
+.nomeMembro{
+    font-size: 30px;
+}
+
+#MVV{
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#MoreCards{
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+
+#tLang{
+    margin-bottom: 50px;
+}
+
+#dLanguages{
+    width: 100%;
+    margin-left: 5%;
+    margin-top: 70px;
+}
+
+.Language{
+    padding-right: 30px;
+}
+
+#redes{
+    display: flex;
+    padding-left: 140px;
+}
+
+.imgRede{
+    margin-left: 30px;
+    width: 80px;
+}
+
+#allRights{
+    padding-left: 60px;
+    padding-right: 60px;
+    font-size: 30px;
+    padding-top: 25px;
+}
+
+.pContato{
+    font-size: 30px;
+}
